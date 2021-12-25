@@ -1,0 +1,118 @@
+.theme--light {
+  //! Background
+  --primary-background: #{$--white};
+  --secondary-background: #{$--light-grey-2};
+  //! Text
+  --primary-text: #{$--black};
+  --secondary-text: #{$--grey};
+  --disabled-text: #{$--dark-grey};
+  //! selection text color
+  --selection-text-color: #{$--black};
+  //! Border color
+  --primary-border-color: #{$--light-grey-2};
+  --primary-border-color-hover: #{$--black};
+  --secondary-border-color: #{$--border-grey};
+  //! Text field
+  --primary-text-field-background: transparent;
+  --primary-text-field-background-disabled: #{$--light-grey-3};
+  --primary-text-field-border-color: #{$--light-grey-7};
+  --primary-text-field-border-color-hover: #{$--black};
+  --primary-text-field-border-color-error: #{$--text-color-error};
+  //! Button
+  --primary-button-background: #{$--light-grey-2};
+  --primary-button-background-hover: #{$--light-grey-5};
+  --primary-button-background-pressed: #{$--light-grey-4};
+  //! Icon
+  --icon-color-active: #{$--black};
+  --icon-color-inactive: #{$--black};
+  //! Wallets
+  --wallets-item-background: #{$--light-grey-2};
+  --wallets-item-background-hover: #{$--white};
+  --wallets-item-border: #{$--light-grey-5};
+  --wallets-box-shadow: 4px 4px 16px rgba(55, 55, 55, 0.24);
+}
+
+.theme--dark {
+  //!Background
+  --primary-background: #{$--dark-blue};
+  --secondary-background: #{$--dark-blue-4};
+  //! Text
+  --primary-text: #{$--light-grey-2};
+  --secondary-text: #{$--grey};
+  --disabled-text: #{$--dark-grey};
+  //! Selection text color
+  --selection-text-color: #{$--white};
+  //! Border color
+  --primary-border-color: #{$--dark-blue-4};
+  --primary-border-color-hover: #{$--white};
+  --secondary-border-color: #{$--light-grey-2-percent10};
+  //! Text field
+  --primary-text-field-background: transparent;
+  --primary-text-field-background-disabled: #{$--dark-blue-4};
+  --primary-text-field-border-color: #{$--dark-blue-4};
+  --primary-text-field-border-color-hover: #{$--white};
+  --primary-text-field-border-color-error: #{$--text-color-error};
+  //! Button
+  --primary-button-background: #{$--dark-blue-3};
+  --primary-button-background-hover: #{$--dark-blue-2};
+  --primary-button-background-pressed: #{$--dark-blue-1};
+  //! Icon
+  --icon-color-active: #{$--white};
+  --icon-color-inactive: #{$--dark-grey};
+  //! Wallets
+  --wallets-item-background: #{$--dark-blue-4};
+  --wallets-item-background-hover: #{$--dark-blue-3};
+  --wallets-item-border: #{$--dark-blue-5};
+  --wallets-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+$background: (
+  'primary': var(--primary-background),
+  'secondary': var(--secondary-background)
+);
+
+$button: (
+  'primary': (
+    'enabled': var(--primary-button-background),
+    'hover': var(--primary-button-background-hover),
+    'pressed': var(--primary-button-background-pressed)
+  )
+);
+
+$text: (
+  'primary': var(--primary-text),
+  'secondary': var(--secondary-text),
+  'disabled': var(--disabled-text)
+);
+
+$border-color: (
+  'primary': var(--primary-border-color),
+  'secondary': var(--secondary-border-color)
+);
+
+$text-field: (
+  'background': (
+    'enabled': var(--primary-text-field-background),
+    'disabled': var(--primary-text-field-background-disabled)
+  ),
+  'border-color': (
+    'enabled': var(--primary-text-field-border-color),
+    'hover': var(--primary-text-field-border-color-hover),
+    'pressed': var(--main-color),
+    'error': var(--primary-text-field-border-color-error)
+  )
+);
+
+$icon: (
+  'active': var(--icon-color-active),
+  'inactive': var(--icon-color-inactive)
+);
+
+$wallets-item: (
+  'background': (
+    'enabled': var(--secondary-background),
+    'hover': var(--primary-button-background)
+  ),
+  'border': var(--wallets-item-border),
+  'box-shadow': var(--wallets-box-shadow)
+);

@@ -1,0 +1,81 @@
+// color
+$--black: #101010;
+$--white: #fff;
+$--light-grey: #f5f5f5;
+$--light-grey-1: #e9e9e9;
+$--light-grey-2: #f6f6f6;
+$--light-grey-2-percent10: rgba($--light-grey-2, 0.1);
+$--light-grey-3: #eaeaea;
+$--light-grey-4: #e8e8e8;
+$--light-grey-5: #eeeeee;
+$--light-grey-6: #f7f7f7;
+$--light-grey-7: #e2e2e2;
+$--grey: #b9b9b9;
+$--grey-1: #a4a4a4;
+$--grey-2: #b4b4b4;
+$--grey-3: #909090;
+$--grey-4: #dddddd;
+$--dark-grey: #919191;
+$--border-grey: #d0d0d0;
+$--light-blue: #d8d4ff;
+$--blue: #1935cf;
+$--light-blue: #2196f3;
+$--purple: #6144e5;
+$--salad: #49c800;
+$--red: #ff0000;
+$--text-color-error: $--red;
+$--green: #008000;
+
+$--dark-blue: #0f1422;
+$--dark-blue-1: #131b27;
+$--dark-blue-2: #182231;
+$--dark-blue-3: #212f46;
+$--dark-blue-4: #20222e;
+$--dark-blue-5: #272c34;
+
+// fonts
+$--font-base: 'Nunito', serif;
+$--font-size-extra-small: 10px;
+$--font-size-small: 12px;
+$--font-size-base: 14px;
+$--font-size-medium: 16px;
+$--font-size-button: 17px;
+$--font-size-extra-small-subtitle: 18px;
+$--font-size-small-subtitle: 20px;
+$--font-size-subtitle: 24px;
+$--font-size-title: 30px;
+$--font-size-extra-title: 36px;
+
+$--font-weight-extra-bold: 800;
+$--font-weight-bold: 700;
+$--font-weight-semi-bold: 600;
+$--font-weight-medium: 500;
+$--font-weight-regular: 400;
+$--font-weight-light: 300;
+$--font-weight-extra-light: 200;
+
+$--bp-tablet: 1024px;
+$--bp-phone: 480px;
+$--bp-small: 320px;
+
+$--header-height: 70px;
+
+// border-radius
+$--main-border-radius: 8px;
+$--border-radius-small: 4px;
+$--border-radius-large: 12px;
+
+// transition duration
+$--transition-duration: 0.3s;
+$--theme-transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+
+// z-indexes
+$--z-index-negative: -10;
+$--z-index-high: 1000;
+
+// buttons
+$--button-size-small: 31px;
+$--button-size-default: 42px;
+$--button-size-large: 52px;
+
+$--button-size-fab-small: 36px;
